@@ -1,4 +1,3 @@
-package com.cloudwick.kafka.producer;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
