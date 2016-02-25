@@ -46,7 +46,7 @@ public class TestProducer {
 			int size = userdata.size();
 
 			//creating the data and sending it
-			for (long nEvents = 1; nEvents <= events; nEvents++) 
+			for (long nEvents = 1; nEvents != events; nEvents++) 
 			{
 				String msg = "{"+
 						"\"StockSymbol\":"+userdata.get(rdm.nextInt(size)).get(0).toString().trim()+","+
