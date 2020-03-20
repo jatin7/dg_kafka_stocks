@@ -3,7 +3,7 @@
 * After you pull this code into your IDE, wait for it to download all the necesasry dependencys and click **Maven Install** to generate the Uber jar with dependencies nested under the **target** folder.
 * **Copy** the jar onto you machine and run the following command
 
-   <code>`java -cp KafkaProducerSample-0.0.1-SNAPSHOT-jar-with-dependencies.jar TestProducer 172.16.6.92:6667 stock_topic 100 1000`</code>
+   <code>`java -cp KafkaProducerSample-0.0.1-SNAPSHOT-jar-with-dependencies.jar TestProducer 192.168.1.66:2181 stock 100 1000`</code>
    
 * In the above command you pass **four** arguments apart from specifying your class file `TestProducer`
   * **_Broker List_**
